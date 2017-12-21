@@ -1,0 +1,67 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Nilesh Prasad
+description: > # this means to ignore newlines until "baseurl:"
+  Made using Jekyll theme based on hack.css!
+repository: https://github.com/nileshprasad137/nileshprasad137.github.io
+baseurl: /jekyll-theme-hackcss  # the subpath of your site, e.g. /blog
+url: https://nileshprasad137.github.io  # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Sass settings
+sass:
+  style: compressed
+
+# Theme settings
+theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
+
+# Customizations
+your_name: Nilesh Prasad
+email: prasadnilesh96@gmail.com
+
+navigation:
+  - text: About Me
+    url: /
+  - text: Blog
+    url: /posts
+  - text: Projects
+    url: /projects   
+
+projects:
+  - name: NoticeFeed Chrome-Extension
+    description: A chrome extension to notify students about latest notices on college website.
+    link: https://github.com/nileshprasad137/NoticeFeed-VITPune
+    image: 
+  - name: MeetingRoom
+    description: A minimal discussion forum developed using Laravel Framework.
+    link: https://github.com/nileshprasad137/MeetingRoom   
+  - name: Gyan Shodh
+    description: Part of state government project to develop wikipedia for kids in Marathi. Developed web application and integrated third party APIs for virtual keyboard and language translations.        
+  - name: Find-Nearby
+    description: Used Google Places and Google Maps API to display nearby location of user's interests. User can also bookmark locations for ease of search.    
+    link: https://github.com/nileshprasad137/find_nearby
+  - name: QuoraMini Chrome-Extension
+    description: Chrome Extension which notifies users about latest feed in Quora account .
+    link: https://github.com/nileshprasad137/QuoraMini-ChromeExtension
+  - name: Result-Analysis-System
+    description: C++ application using simplecpp graphics library to import data from MS-Excel file to analyse students' results using various statistical measures.   
+
+social:
+  - service: github
+    username: nileshprasad137
+    link: https://github.com/nileshprasad137
+  - service: twitter
+    username: prasadnilesh137
+    link: https://twitter.com/prasadnilesh137  
+
+# Plugins
+gems:
+  - jekyll-seo-tag
