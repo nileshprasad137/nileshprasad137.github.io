@@ -37,8 +37,7 @@ navigation:
 
 projects:
   - name: Automated Essay Grader
-    description: Ongoing project based on Machine Learning to extract features from essays and train using suitable ML algorithms to predict essay scores.
-    link: https://github.com/nileshprasad137/MeetingRoom 
+    description: Ongoing project based on Machine Learning to extract features from essays and train using suitable ML algorithms to predict essay scores.    
   - name: NoticeFeed Chrome-Extension
     description: A chrome extension to notify students about latest notices on college website.
     link: https://github.com/nileshprasad137/NoticeFeed-VITPune
