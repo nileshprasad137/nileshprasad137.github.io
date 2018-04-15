@@ -36,15 +36,16 @@ navigation:
     url: /projects   
 
 projects:
+  - name: Automated Essay Grader
+    description: Ongoing project based on Machine Learning to extract features from essays and train using suitable ML algorithms to predict essay scores.
+    link: https://github.com/nileshprasad137/MeetingRoom 
   - name: NoticeFeed Chrome-Extension
     description: A chrome extension to notify students about latest notices on college website.
     link: https://github.com/nileshprasad137/NoticeFeed-VITPune
     image: 
   - name: MeetingRoom
     description: A minimal discussion forum developed using Laravel Framework.
-    link: https://github.com/nileshprasad137/MeetingRoom   
-  - name: Gyan Shodh
-    description: Part of state government project to develop wikipedia for kids in Marathi. Developed web application and integrated third party APIs for virtual keyboard and language translations.        
+    link: https://github.com/nileshprasad137/MeetingRoom           
   - name: Find-Nearby
     description: Used Google Places and Google Maps API to display nearby location of user's interests. User can also bookmark locations for ease of search.    
     link: https://github.com/nileshprasad137/find_nearby
