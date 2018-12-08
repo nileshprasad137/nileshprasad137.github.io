@@ -13,8 +13,10 @@ $icon-size:        15px;
 
 // Sizes
 $on-palm:          768px;
-
-
+$a-tags: 'a';
+#{$a-tags} {
+    color: #0339a9;
+  }
 
 // Use media queries like this:
 // @include media-query($on-palm) {

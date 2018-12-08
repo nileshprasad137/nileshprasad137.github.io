@@ -21,7 +21,7 @@ sass:
   style: compressed
 
 # Theme settings
-theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
+theme_mode: standard  # choices are: 'dark', 'standard', 'markdown'
 
 # Customizations
 your_name: Nilesh Prasad
@@ -38,6 +38,10 @@ navigation:
 projects:
   - name: Automated Essay Grader
     description: Ongoing project based on Machine Learning to extract features from essays and train using suitable ML algorithms to predict essay scores.    
+    link: https://github.com/nileshprasad137/Automated-Essay-Grader
+  - name: Loan-Classifier
+    description: Final Peer Graded project for "ML with Python" course. applied different classification algorithms such as KNN, Decision Tree, Support Vector Machine and Logistic Regression.      
+    link: https://github.com/nileshprasad137/ML-Coursera-IBM-CourseWork/blob/master/final-peer-graded-project/Final-Peer-Graded-Project.ipynb 
   - name: NoticeFeed Chrome-Extension
     description: A chrome extension to notify students about latest notices on college website.
     link: https://github.com/nileshprasad137/NoticeFeed-VITPune
@@ -50,9 +54,7 @@ projects:
     link: https://github.com/nileshprasad137/find_nearby
   - name: QuoraMini Chrome-Extension
     description: Chrome Extension which notifies users about latest feed in Quora account .
-    link: https://github.com/nileshprasad137/QuoraMini-ChromeExtension
-  - name: Result-Analysis-System
-    description: C++ application using simplecpp graphics library to import data from MS-Excel file to analyse students' results using various statistical measures.   
+    link: https://github.com/nileshprasad137/QuoraMini-ChromeExtension     
 
 social:
   - service: github
